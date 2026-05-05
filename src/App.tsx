@@ -45,7 +45,7 @@ function Navbar() {
               alt="Logo Toba Energi" 
               className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
               onError={(e) => { 
-                e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
+                e.currentTarget.src = 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/logo.webp';
                 e.currentTarget.onerror = null; 
               }}
             />
