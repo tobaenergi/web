@@ -114,7 +114,7 @@ function HowItWorks() {
             <div className="absolute -inset-4 bg-gradient-to-r from-toba-light/30 to-toba-accent rounded-[3rem] blur-xl opacity-50 group-hover:opacity-70 transition-opacity duration-500"></div>
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-[8px] border-white ring-1 ring-gray-100 group">
               <img 
-                src="https://i.ibb.co/V0Pfvh9T/pexels-cristian-rojas-8853506.jpg" 
+                src="https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/home.webp" 
                 alt="Ilustrasi panel surya di atas atap menyerap sinar matahari" 
                 className="w-full h-full object-cover rounded-[2rem] aspect-square lg:aspect-[4/5] transform transition-transform duration-700 group-hover:scale-105"
               />
