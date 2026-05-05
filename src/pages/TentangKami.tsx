@@ -35,7 +35,7 @@ export default function TentangKami() {
           <div className="text-lg text-gray-600 leading-relaxed relative flow-root">
             <div className="lg:float-left lg:w-[45%] lg:mr-10 lg:mb-8 mb-8 relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <img 
-                src="https://i.ibb.co/HDwffdsK/514327577-24350377871213020-4679553387692281036-n.jpg" 
+                src="https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/tentang%20kami.webp" 
                 alt="Tim bekerja menginstal panel surya" 
                 className="w-full h-full object-cover"
               />
