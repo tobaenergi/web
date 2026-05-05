@@ -11,7 +11,7 @@ const projects = [
     date: 'Agustus 2023',
     capacity: '4.5 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/35TkFT6W/3.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/porttt.webp'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     date: 'Oktober 2023',
     capacity: '1.5 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/5XZQBMqK/2.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/portt.webp'
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     date: 'November 2023',
     capacity: '10 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/8nMzMq51/4.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/portttt.webp'
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const projects = [
     date: 'April 2024',
     capacity: '2.5 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/WNTx85HL/1.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/port.webp'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const projects = [
     date: 'Juni 2024',
     capacity: '2.5 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/k2yc3Q8b/5.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/porttttt.webp'
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const projects = [
     date: 'September 2024',
     capacity: '5 kWp',
     type: 'Hybrid',
-    image: 'https://i.ibb.co/21GtSJ3G/6.png'
+    image: 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/portttttt.webp'
   }
 ];
 
