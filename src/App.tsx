@@ -15,13 +15,13 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
 
     const titleMap: Record<string, string> = {
-      '/': 'Toba Energi Nusantara | Solusi Panel Surya Terpercaya',
-      '/layanan': 'Layanan Pemasangan PLTS | Toba Energi Nusantara',
-      '/portfolio': 'Portfolio Proyek Panel Surya | Toba Energi Nusantara',
-      '/tentang-kami': 'Tentang Toba Energi Nusantara'
+      '/': 'Toba Energi Nusajaya | Solusi Panel Surya Terpercaya',
+      '/layanan': 'Layanan Pemasangan PLTS | Toba Energi Nusajaya',
+      '/portfolio': 'Portfolio Proyek Panel Surya | Toba Energi Nusajaya',
+      '/tentang-kami': 'Tentang Toba Energi Nusajaya'
     };
 
-    document.title = titleMap[pathname] || 'Toba Energi Nusantara';
+    document.title = titleMap[pathname] || 'Toba Energi Nusajaya';
   }, [pathname]);
 
   return null;
@@ -45,7 +45,7 @@ function Navbar() {
               alt="Logo Toba Energi" 
               className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
               onError={(e) => { 
-                e.currentTarget.src = 'https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/logo.webp';
+                e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
                 e.currentTarget.onerror = null; 
               }}
             />
