@@ -35,7 +35,7 @@ export default function TentangKami() {
           <div className="text-lg text-gray-600 leading-relaxed relative flow-root">
             <div className="lg:float-left lg:w-[45%] lg:mr-10 lg:mb-8 mb-8 relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <img 
-                src="https://raw.githubusercontent.com/tobaenergi/web/refs/heads/main/public/images/tentang%20kami.webp" 
+                src="https://i.ibb.co/HDwffdsK/514327577-24350377871213020-4679553387692281036-n.jpg" 
                 alt="Tim bekerja menginstal panel surya" 
                 className="w-full h-full object-cover"
               />
@@ -51,7 +51,7 @@ export default function TentangKami() {
 
             <div className="space-y-6">
               <p>
-                Toba Energi Nusantara dibangun oleh para profesional yang telah mendedikasikan hidupnya dan berpengalaman panjang dalam bidang Pembangkit Listrik Tenaga Surya (PLTS).
+                PT Toba Energi Nusajaya dibangun oleh para profesional yang telah mendedikasikan hidupnya dan berpengalaman panjang dalam bidang Pembangkit Listrik Tenaga Surya (PLTS).
               </p>
               <p>
                 Perjalanan kami dimulai secara nyata pada tahun 2016. Saat itu, kami terjun langsung terlibat dalam berbagai proyek pembangunan PLTS di daerah <strong>3T (Tertinggal, Terdepan, dan Terluar)</strong> yang tersebar di seluruh penjuru Indonesia. Fokus utama kami pada awalnya adalah membangun <strong>PLTS Terpusat</strong>, memberikan akses penerangan mandiri dan andal dengan energi matahari bagi desa-desa pedalaman.
