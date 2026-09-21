@@ -1,0 +1,8 @@
+# Robots.txt for PT Toba Energi Nusajaya
+# https://tobaenergi.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://tobaenergi.com/sitemap.xml

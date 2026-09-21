@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&family=Montserrat:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+
+  --color-toba-dark: #004d66; /* Deep Teal */
+  --color-toba-light: #4a8ca1; /* Medium Teal */
+  --color-toba-accent: #f5f8f9; /* Off-white for subtle backgrounds */
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
