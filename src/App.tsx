@@ -33,11 +33,15 @@ function Navbar() {
             <motion.img 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              src="/images/logo.svg" 
+              src="/images/logo.png" 
               alt="Logo PT Toba Energi Nusajaya - Jasa Pasang Panel Surya" 
               width={160}
               height={40}
               className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
+              onError={(e) => { 
+                e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
+                e.currentTarget.onerror = null; 
+              }}
             />
           </Link>
         </div>
