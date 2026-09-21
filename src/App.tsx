@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { Phone, MapPin, Mail, Instagram, Linkedin, Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 
 import Home from './pages/Home';
-import Layanan from './pages/Layanan';
-import Portfolio from './pages/Portfolio';
-import TentangKami from './pages/TentangKami';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
+const Layanan = lazy(() => import('./pages/Layanan'));
+const Portfolio = lazy(() => import('./pages/Portfolio'));
+const TentangKami = lazy(() => import('./pages/TentangKami'));
+const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,15 +33,11 @@ function Navbar() {
             <motion.img 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              src="/images/logo.png" 
+              src="/images/logo.svg" 
               alt="Logo PT Toba Energi Nusajaya - Jasa Pasang Panel Surya" 
               width={160}
               height={40}
               className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
-              onError={(e) => { 
-                e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
-                e.currentTarget.onerror = null; 
-              }}
             />
           </Link>
         </div>
@@ -213,14 +209,16 @@ export default function App() {
       <div className="min-h-screen bg-white selection:bg-toba-light/20 selection:text-toba-dark">
         <Navbar />
         <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/layanan" element={<Layanan />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/tentang-kami" element={<TentangKami />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogPost />} />
-          </Routes>
+          <Suspense fallback={<div className="min-h-[50vh] bg-white flex items-center justify-center"><div className="w-8 h-8 rounded-full border-2 border-toba-dark border-t-transparent animate-spin" /></div>}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/layanan" element={<Layanan />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/tentang-kami" element={<TentangKami />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:slug" element={<BlogPost />} />
+            </Routes>
+          </Suspense>
         </main>
         <Footer />
       </div>
