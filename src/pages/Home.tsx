@@ -116,7 +116,11 @@ function HowItWorks() {
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-[8px] border-white ring-1 ring-gray-100 group">
               <img 
                 src="https://i.ibb.co/V0Pfvh9T/pexels-cristian-rojas-8853506.jpg" 
-                alt="Ilustrasi panel surya di atas atap menyerap sinar matahari" 
+                alt="Ilustrasi panel surya di atas atap menyerap sinar matahari"
+                width={800}
+                height={1000}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover rounded-[2rem] aspect-square lg:aspect-[4/5] transform transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-500"></div>
@@ -189,10 +193,11 @@ function Milestones() {
               Komitmen nyata kami dalam menghadirkan masa depan energi yang lebih bersih untuk nusantara.
             </p>
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-3xl text-center sm:grid-cols-2 lg:grid-cols-4 bg-white/10 ring-1 ring-white/10">
+          <div role="list" className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-3xl text-center sm:grid-cols-2 lg:grid-cols-4 bg-white/10 ring-1 ring-white/10">
             {stats.map((stat, index) => (
               <motion.div 
                 key={stat.id} 
+                role="listitem"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 whileHover={{ y: -5, backgroundColor: 'rgba(5, 78, 102, 0.7)' }}
@@ -201,11 +206,11 @@ function Milestones() {
                 className="flex flex-col bg-toba-dark/50 p-8 backdrop-blur-sm relative overflow-hidden group transition-colors duration-300"
               >
                 <div className="absolute inset-0 bg-gradient-to-t from-toba-light/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <dt className="text-sm font-semibold leading-6 text-gray-300 z-10">{stat.name}</dt>
-                <dd className="order-first text-4xl font-bold tracking-tight text-white mb-2 z-10 group-hover:scale-110 transition-transform duration-300 origin-bottom">{stat.value}</dd>
+                <div className="order-first text-4xl font-bold tracking-tight text-white mb-2 z-10 group-hover:scale-110 transition-transform duration-300 origin-bottom">{stat.value}</div>
+                <div className="text-sm font-semibold leading-6 text-gray-100 z-10">{stat.name}</div>
               </motion.div>
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </section>

@@ -35,6 +35,8 @@ function Navbar() {
               whileTap={{ scale: 0.95 }}
               src="/images/logo.png" 
               alt="Logo PT Toba Energi Nusajaya - Jasa Pasang Panel Surya" 
+              width={160}
+              height={40}
               className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
               onError={(e) => { 
                 e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
@@ -190,13 +192,13 @@ function Footer() {
         </div>
 
         <div className="mt-20 border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/50 text-sm text-center md:text-left">
+          <p className="text-white/80 text-sm text-center md:text-left">
             &copy; {new Date().getFullYear()} PT Toba Energi Nusajaya. Hak Cipta Dilindungi.
           </p>
           <div className="flex gap-6">
-            <Link to="/tentang-kami" className="text-white/50 hover:text-white text-sm transition-colors">Tentang Kami</Link>
-            <Link to="/layanan" className="text-white/50 hover:text-white text-sm transition-colors">Layanan PLTS</Link>
-            <Link to="/blog" className="text-white/50 hover:text-white text-sm transition-colors">Blog Edukasi</Link>
+            <Link to="/tentang-kami" className="text-white/80 hover:text-white text-sm transition-colors">Tentang Kami</Link>
+            <Link to="/layanan" className="text-white/80 hover:text-white text-sm transition-colors">Layanan PLTS</Link>
+            <Link to="/blog" className="text-white/80 hover:text-white text-sm transition-colors">Blog Edukasi</Link>
           </div>
         </div>
       </div>

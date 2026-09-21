@@ -1,0 +1,32 @@
+# PT Toba Energi Nusajaya
+
+> PT Toba Energi Nusajaya adalah perusahaan EPC (Engineering, Procurement, and Construction) penyedia layanan instalasi Pembangkit Listrik Tenaga Surya (PLTS Atap) terpercaya dan profesional di Indonesia sejak 2016. Melayani residensial (rumah tinggal), bisnis, UMKM, dan industri di kawasan Bogor, Jabodetabek, dan seluruh Indonesia.
+
+## Layanan Utama
+
+- [Layanan Panel Surya](https://tobaenergi.com/layanan): Layanan end-to-end mulai dari analisis energi, survei struktur atap, instalasi bersertifikat ESDM, perizinan SLO PLN, hingga monitoring pintar real-time dan garansi performa 25+ tahun.
+- [Sistem On-Grid](https://tobaenergi.com/layanan): Sistem PLTS yang terhubung dengan jaringan PLN tanpa baterai untuk efisiensi tagihan listrik maksimal.
+- [Sistem Hybrid](https://tobaenergi.com/layanan): Sistem PLTS terintegrasi baterai cadangan yang menjamin listrik tetap menyala saat pemadaman PLN.
+- [Sistem Off-Grid](https://tobaenergi.com/layanan): Sistem PLTS mandiri 100% dengan baterai untuk kawasan terpencil atau pulau terluar.
+- [Perizinan SLO & Net Metering PLN](https://tobaenergi.com/layanan): Pengurusan legalitas Sertifikat Laik Operasi dan kuota instalasi ke PLN.
+
+## Portofolio & Pengalaman Proyek
+
+- [Portofolio Proyek](https://tobaenergi.com/portfolio): Dokumentasi proyek instalasi PLTS atap di Sentul Bogor, Rancamaya Bogor, Pondok Gede Bekasi, Tambun Bekasi, dan perkantoran Tanjung Priok Jakarta.
+- [Tentang Perusahaan](https://tobaenergi.com/tentang-kami): Berpengalaman membangun proyek PLTS di daerah 3T (Tertinggal, Terdepan, Terluar) sejak 2016 dan berbadan hukum resmi sejak 2020.
+
+## Pusat Edukasi & Artikel
+
+- [Panduan Pasang Panel Surya Rumah Tangga](https://tobaenergi.com/blog/panduan-lengkap-pasang-panel-surya-rumah-tangga): Estimasi biaya, cara kerja modul PV dan inverter, serta keuntungan finansial PLTS hunian.
+- [Perbedaan Sistem On-Grid, Off-Grid, dan Hybrid](https://tobaenergi.com/blog/perbedaan-plts-on-grid-off-grid-hybrid): Panduan komprehensif menentukan jenis sistem panel surya yang paling tepat.
+- [Aturan dan Perizinan PLTS Atap PLN Terbaru](https://tobaenergi.com/blog/aturan-perizinan-plts-atap-pln): Regulasi Permen ESDM, mekanisme kuota sistem PLN, dan sertifikasi SLO.
+- [Simulasi & Cara Menghitung Penghematan Listrik](https://tobaenergi.com/blog/cara-menghitung-penghematan-listrik-plts): Kalkulasi ROI, simulasi penghematan bulanan, dan waktu balik modal (BEP).
+
+## Kontak & Informasi Resmi
+
+- Alamat Kantor: Jl. Raya Kertamaya No. 1, Kertamaya, Bogor Selatan, Kota Bogor, Jawa Barat 16138
+- WhatsApp & Telepon: +62 853 7071 6686
+- Email: info@tobaenergi.com
+- Website Resmi: https://tobaenergi.com
+- Instagram: https://www.instagram.com/tobaenergi/
+- LinkedIn: https://www.linkedin.com/company/toba-energi/
