@@ -15,31 +15,16 @@ function Hero() {
       
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl leading-tight sm:leading-tight"
-          >
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl leading-tight sm:leading-tight">
             Solusi Listrik Tenaga Surya <br className="hidden sm:block" />
             untuk <span className="text-toba-dark font-serif italic">Setiap Kebutuhan</span>
-          </motion.h1>
+          </h1>
           
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="mt-6 text-lg leading-8 text-gray-600"
-          >
+          <p className="mt-6 text-lg leading-8 text-gray-600">
             Toba Energi menghadirkan sistem panel surya berkualitas tinggi untuk rumah, bisnis, dan industri. Kurangi tagihan listrik dan mulailah kemandirian energi Anda bersama kami.
-          </motion.p>
+          </p>
           
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="mt-10 flex items-center justify-center gap-x-6"
-          >
+          <div className="mt-10 flex items-center justify-center gap-x-6">
             <button
               onClick={() => setIsModalOpen(true)}
               className="rounded-full bg-toba-dark px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-toba-light hover:shadow-lg hover:-translate-y-1 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-toba-dark transition-all duration-300"
@@ -49,7 +34,7 @@ function Hero() {
             <Link to="/layanan" className="group text-sm font-semibold leading-6 text-gray-900 flex items-center gap-2 transition-colors hover:text-toba-dark">
               Pelajari Layanan Kami <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
-          </motion.div>
+          </div>
         </div>
 
       </div>
