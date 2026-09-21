@@ -29,20 +29,23 @@ function Navbar() {
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         {/* Logo Placeholder */}
         <div className="flex items-center">
-          <Link to="/">
-            <motion.img 
+          <Link to="/" className="flex items-center">
+            <motion.div 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              src="/images/logo.png" 
-              alt="Logo PT Toba Energi Nusajaya - Jasa Pasang Panel Surya" 
-              width={160}
-              height={40}
-              className="h-10 w-auto object-contain cursor-pointer transition-shadow hover:drop-shadow-lg"
-              onError={(e) => { 
-                e.currentTarget.src = 'https://i.ibb.co/6RJfsL9j/TEN-Electric-Copy.png';
-                e.currentTarget.onerror = null; 
-              }}
-            />
+              className="cursor-pointer"
+            >
+              <picture>
+                <source srcSet="/images/logo.webp" type="image/webp" />
+                <img 
+                  src="/images/logo.png" 
+                  alt="Logo PT Toba Energi Nusajaya - Jasa Pasang Panel Surya" 
+                  width={182}
+                  height={40}
+                  className="h-10 w-auto object-contain transition-shadow hover:drop-shadow-lg"
+                />
+              </picture>
+            </motion.div>
           </Link>
         </div>
 
